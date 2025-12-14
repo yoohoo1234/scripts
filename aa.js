@@ -51,7 +51,7 @@
     // --- subhd.tv Search Button ---
     const subhdButton = createSearchButton(
         'Search on subhd.tv',
-        `https://subhd.tv/search?q=${encodeURIComponent(filmTitle)}`,
+        `https://subhd.tv/search/${encodeURIComponent(filmTitle)}`,
         'purple'  // Different color for subhd.tv
     );
 
