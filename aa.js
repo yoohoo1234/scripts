@@ -58,7 +58,7 @@
     // --- yts.lt Search Button ---
     const ytsButton = createSearchButton(
         'Search on yts.lt',
-        `https://yts.lt/search?q=${encodeURIComponent(filmTitle)}`,
+        `https://yts.lt/browse-movies/${encodeURIComponent(filmTitle)}`,
         'orange'  // Different color for yts.lt
     );
 
