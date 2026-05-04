@@ -44,7 +44,7 @@
     // --- ASSRT Search Button ---
     const assrtButton = createSearchButton(
         'Search on ASSRT',
-        `https://secure.assrt.net/sub/?searchword=${encodeURIComponent(filmTitle)}`,
+        `https://assrt.net/sub/?searchword=${encodeURIComponent(filmTitle)}`,
         'blue'  // Different color for ASSRT
     );
 
