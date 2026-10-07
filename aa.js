@@ -58,7 +58,7 @@
     // --- yts.lt Search Button ---
     const ytsButton = createSearchButton(
         'Search on yts.bz',
-        `https://yts.bz/browse-movies/${encodeURIComponent(filmTitle)}`,
+        `https://yts.gg/browse-movies/${encodeURIComponent(filmTitle)}`,
         'orange'  // Different color for yts.lt
     );
 
